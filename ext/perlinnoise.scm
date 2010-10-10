@@ -4,7 +4,7 @@
 
 (define-module ext.perlinnoise
   (export test-gauche_perlinnoise ;; dummy
-          )
+          perlinnoise-2d)
   )
 (select-module ext.perlinnoise)
 

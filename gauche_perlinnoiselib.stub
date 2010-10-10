@@ -68,6 +68,9 @@ float perlinnoise_2d(float x, float y, float persistence, float octaves){
 }
 "
 
+(define-cproc perlinnoise-2d(x::<float> y::<float> persistence::<float> octaves::<float>) ::<float>
+  (return (Scm_MakeFlonum (perlinnoise_2d x y persistence octaves))))
+
 ;; Local variables:
 ;; mode: scheme
 ;; end:

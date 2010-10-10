@@ -551,10 +551,10 @@ MAKEFLAGS=
 # Identity of this package.
 PACKAGE_NAME='gauche-perlinnoise'
 PACKAGE_TARNAME='gauche-perlinnoise'
-PACKAGE_VERSION='1.0'
-PACKAGE_STRING='gauche-perlinnoise 1.0'
-PACKAGE_BUGREPORT='shiro@acm.org'
-PACKAGE_URL=''
+PACKAGE_VERSION='0.0.1'
+PACKAGE_STRING='gauche-perlinnoise 0.0.1'
+PACKAGE_BUGREPORT='foobar@ne.jp'
+PACKAGE_URL='http://foo.bar.co.jp'
 
 ac_subst_vars='LTLIBOBJS
 LIBOBJS
